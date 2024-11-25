@@ -17,15 +17,17 @@ last_log_message = None
 
 def _banner():
     banner = r"""
- ██╗████████╗███████╗     ██╗ █████╗ ██╗    ██╗
- ██║╚══██╔══╝██╔════╝     ██║██╔══██╗██║    ██║
- ██║   ██║   ███████╗     ██║███████║██║ █╗ ██║
- ██║   ██║   ╚════██║██   ██║██╔══██║██║███╗██║
- ██║   ██║   ███████║╚█████╔╝██║  ██║╚███╔███╔╝
- ╚═╝   ╚═╝   ╚══════╝ ╚════╝ ╚═╝  ╚═╝ ╚══╝╚══╝  """ 
+
+ ▗▄▄▖▗▄▄▖▗▖  ▗▖▗▄▄▖▗▄▄▄▖▗▄▖     ▗▖  ▗▖ ▗▄▖  ▗▄▄▖▗▄▄▄▖▗▄▄▄▖▗▄▄▖ 
+▐▌   ▐▌ ▐▌▝▚▞▘ ▐▌ ▐▌ █ ▐▌ ▐▌    ▐▛▚▞▜▌▐▌ ▐▌▐▌     █  ▐▌   ▐▌ ▐▌
+▐▌   ▐▛▀▚▖ ▐▌  ▐▛▀▘  █ ▐▌ ▐▌    ▐▌  ▐▌▐▛▀▜▌ ▝▀▚▖  █  ▐▛▀▀▘▐▛▀▚▖
+▝▚▄▄▖▐▌ ▐▌ ▐▌  ▐▌    █ ▝▚▄▞▘    ▐▌  ▐▌▐▌ ▐▌▗▄▄▞▘  █  ▐▙▄▄▖▐▌ ▐▌
+                                                               
+                                                               
+                                                                """ 
     print(Fore.GREEN + Style.BRIGHT + banner + Style.RESET_ALL)
     print(hju + f" Fintopio Wallet Auto Bot")
-    print(mrh + f" FREE TO USE = join us on {pth}@DEEPLCHAIN")
+    print(mrh + f" FREE TO USE = join us on {pth}@airdropconfirm7")
     print(mrh + f" before start please '{hju}git pull{mrh}' to update bot")
 
 def _clear():
